@@ -22,6 +22,7 @@ public void run(String... args) throws Exception {
 // TODO Auto-generated method stub
 	 offreRepository.save(new Offre(1,"Web Design", "informatique","AXA", 2, "France"));
 	 offreRepository.save(new Offre(2,"Developpeur", "informatique","Talys", 3, "Tunisie")); 
-     offreRepository.save(new Offre(3,"Architecte", "informatique","SIS", 2, "Allemagne")); 	  
+     offreRepository.save(new Offre(3,"Architecte", "informatique","SIS", 2, "Allemagne")); 	
+ 	
 		} 
 }
